@@ -80,8 +80,12 @@ body {
   border-radius: 30px;
 }
 
-.btn:hover{
+.btn-login:hover{
   background-color: #2d1e80;
+}
+
+.btn-social{
+  width: 80px;
 }
 
 .copy{
