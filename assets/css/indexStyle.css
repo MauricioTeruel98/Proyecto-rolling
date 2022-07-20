@@ -14,6 +14,8 @@ body {
     background-color: #1c1c1d;
 }
 
+/* NAVBAR */
+
 .navbar-background{
     position: relative;
     background-image: url('../img/image2.jpeg');
@@ -39,7 +41,6 @@ body {
 }
 
 .btn-login{
-    padding-top: 8px;
     border-radius: 30px;
     background-color: #9d4eddd5;
     border: none;
@@ -92,6 +93,8 @@ body {
     text-shadow: 5px 4px 5px rgba(0,0,0,0.59);
 }
 
+/* END NAVBAR */
+
 /* FOOTER */
 
 .footer {
@@ -131,6 +134,23 @@ body {
     color: #fff;
 }
 
+.line-md{
+    color: #fff;
+    margin:auto;
+    width: 95%;
+    display: none;
+}
+
+.link:hover{
+    color: #ccc;
+    transition: .5s;
+    margin-left: 10px;
+}
+
+/* END FOOTER */
+
+/* MODAL */
+
 .modal-content{
     background-color: rgba(100,100,100,0.3) !important;
     backdrop-filter: blur(15px);
@@ -153,22 +173,11 @@ body {
     border: none;
 }
 
-.line-md{
-    color: #fff;
-    margin:auto;
-    width: 95%;
-    display: none;
-}
-
-.link:hover{
-    color: #ccc;
-    transition: .5s;
-    margin-left: 10px;
-}
-
 .btn-social{
     width: 80px;
 }
+
+/* END MODAL */
 
 @media (max-width: 768px) {
     .container {
@@ -202,6 +211,8 @@ body {
         text-align: center;
     }
 }
+
+/* SCROLLBAR */
 
 ::-webkit-scrollbar {
     width: 10px;
