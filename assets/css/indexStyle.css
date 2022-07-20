@@ -97,7 +97,7 @@ body {
 .footer {
     position: relative;
     background: rgb(45,30,128);
-background: linear-gradient(132deg, rgba(45,30,128,1) 0%, rgba(0,18,71,1) 100%);
+    background: linear-gradient(132deg, rgba(45,30,128,1) 0%, rgba(0,18,71,1) 100%);
 }
 
 .icon{
@@ -192,6 +192,14 @@ background: linear-gradient(132deg, rgba(45,30,128,1) 0%, rgba(0,18,71,1) 100%);
 
     .line-md{
         display: block;
+    }
+
+    .footer-link{
+        text-align: start;
+    }
+
+    .center-text-nav{
+        text-align: center;
     }
 }
 
