@@ -1,0 +1,84 @@
+/* NAVBAR */
+
+.navbar-background{
+    position: relative;
+    background-image: url('../img/image2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 30%;
+    height: 55vh;
+}
+
+.navbar{
+    background: rgba(0, 0, 0, 0.656) !important;
+    border-bottom: 1px solid #1c1c1d;
+    backdrop-filter: blur(10px);
+}
+
+.navbar-dark .navbar-toggler:focus{
+    color: transparent;
+}
+
+.nav-link{
+    color: #fff !important;
+}
+
+.logo-title {
+    font-family: 'Cormorant', serif;
+    color: #fff;
+}
+
+.btn-login{
+    border-radius: 30px;
+    background-color: #9d4eddd5;
+    border: none;
+    color: #fff;
+}
+
+.btn-register{
+    border-radius: 30px;
+    background-color: #7a2cbfd5;
+    border: none;
+    color: #fff;
+}
+
+.btn-login:hover{
+    background-color: #9d4edd;
+    border: none;
+    color: #fff;
+}
+
+.btn-register:hover{
+    background-color: #7a2cbf;
+    border: none;
+    color: #fff;
+}
+
+.btn-register:focus{
+    background-color: #7a2cbf;
+    border: none;
+    color: #fff;
+}
+
+.navbar-toggler{
+    border: none;
+}
+
+.navbar-toggler:hover{
+    border: none;
+}
+
+.navbar-toggler:target{
+    border: none;
+}
+
+.title-nav{
+    color: white;
+    text-align: center;
+    padding-top: 30vh;
+    font-family: 'Cormorant', serif;
+    font-weight: 900;
+    text-shadow: 5px 4px 5px rgba(0,0,0,0.59);
+}
+
+/* END NAVBAR */

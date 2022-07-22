@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Inconsolata', monospace;
+    background-color: #ccc ;
+    background-size: cover;
+}
+
+.background-nota{
+    position: relative;
+    background-image: url('../img/webb.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 28%;
+    background-position-x: 50%;
+    height: 55vh;
+}
+
+/* NOTA */
+
+#nota{
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.title-nota{
+    color: #1c1c1d;
+    font-family: 'Cormorant', serif;
+    text-align: center;
+}
+
+.title-nota h1{
+    font-size: 2rem;
+}
+
+.nota-contenido{
+    color: #1c1c1d;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.img-nota{
+    height: 20vh;
+}
