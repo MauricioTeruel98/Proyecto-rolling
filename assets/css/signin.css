@@ -18,9 +18,14 @@ body {
 }
 
 .login{
-  background-color: #fff;
   width: 50%;
-  height: 100vh;
+  height: 120vh;
+}
+
+.bg{
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(15px);
 }
 
 .login-img{
@@ -66,6 +71,39 @@ body {
   background-color: #2d1e802b;
   border: none;
   color: #1c1c1d;
+}
+
+/* MODAL */
+
+.modal-content{
+  background-color: rgba(255, 255, 255, 0.9) !important;
+  backdrop-filter: blur(15px);
+  color: #1c1c1d;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.modal-content input{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: none;
+  border-bottom: 1px solid #2d1e80cb;
+  border-radius: 0px;
+  background-color: rgba(100, 100, 100, 0);
+}
+
+.modal-content input:focus{
+  outline: none;
+  background-color: transparent;
+}
+
+.modal-content input:focus{
+  outline: none;
+  background-color: transparent;
+}
+
+.modal-header,.modal-footer{
+  border: none;
 }
 
 @media screen and (max-width: 1024px){
