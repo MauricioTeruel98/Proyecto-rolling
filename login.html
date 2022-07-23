@@ -17,14 +17,14 @@
     <div class="login-page">
         <div class="login">
             <div class="bg">
-                <div class="container text-center">
+                <div class="container text-center py-0">
                     <form class="form-sign">
                         <img class="mb-1" src="assets/img/logo-dark.png" alt="" width="50%">
                         <h1 class="h3 mb-4 fw-normal logo-title">WISE GALAXY</h1>
                         <hr>
                         <h1 class="h3 mb-3 fw-normal">LOGIN</h1>
 
-                        <div class="form-floating ">
+                        <div class="form-floating">
                             <input type="email" class="form-control" placeholder="name@example.com">
                             <label>Email</label>
                         </div>
@@ -38,11 +38,15 @@
                                 <input type="checkbox" value="remember-me"> Recordar contraseña
                             </label>
                         </div>
-                        <a class="w-50 btn btn-lg btn-dark btn-login" href="index.html">Log In</a>
-                        <button type="button" class="w-50 btn btn-lg btn-dark btn-login mt-3" data-bs-toggle="modal"
+                        <div>
+                            <a class="btn btn-lg btn-dark btn-login" href="index.html">Log In</a>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-lg btn-dark btn-login mt-3" data-bs-toggle="modal"
                             data-bs-target="#exampleModal">
                             Olvidaste tu contraseña?
-                        </button>
+                            </button>
+                        </div>
                         <p class="my-4">Ingresá con tus redes sociales</p>
                         <div>
                             <button class="btn btn-danger btn-social"><i class="bi bi-google"></i></button>
