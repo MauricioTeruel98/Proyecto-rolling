@@ -12,6 +12,7 @@ html,
 body {
     height: 100%;
     font-family: 'Inconsolata', monospace;
+    overflow-x: hidden;
 }
 
 .background-nota{
@@ -49,7 +50,6 @@ body {
 
 .title-nota{
     color: #000000;
-    font-family: 'Cormorant', serif;
     text-align: left;
 }
 
@@ -76,6 +76,40 @@ body {
     width: 45vw;
 }
 
+/* MODAL */
+
+.modal-content{
+    background-color: rgba(100,100,100,0.3) !important;
+    backdrop-filter: blur(15px);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.modal-content input{
+    background-color: rgba(100, 100, 100, 0.5);
+}
+.modal-content select{
+    background-color: rgba(100, 100, 100, 0.5);
+}
+.modal-content option{
+    background-color: rgb(255, 255, 255);
+}
+
+.modal-content input:focus{
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.modal-header,.modal-footer{
+    border: none;
+}
+
+.btn-social{
+    width: 80px;
+}
+
+/* END MODAL */
+
 @media screen and (max-width:768px) {
 
     #nota{
@@ -84,5 +118,14 @@ body {
 
     .nota-contenido{
         font-size: 1.2rem;
+    }
+
+    .img-nota{
+        width: 100%;
+    }
+
+    .text-small{
+        font-size: 0.8rem;
+        line-height: 50%;
     }
 }

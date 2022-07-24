@@ -45,9 +45,13 @@ body {
 }
 
 .modal-content input{
-    margin-top: 5px;
-    margin-bottom: 5px;
     background-color: rgba(100, 100, 100, 0.5);
+}
+.modal-content select{
+    background-color: rgba(100, 100, 100, 0.5);
+}
+.modal-content option{
+    background-color: rgb(255, 255, 255);
 }
 
 .modal-content input:focus{
