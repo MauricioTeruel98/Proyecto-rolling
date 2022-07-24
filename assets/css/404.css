@@ -85,6 +85,7 @@ video{
 @media (max-width: 768px) {
     .text{
         width: 90%;
+        padding-top: 100px;
     }
 
     .text h1{
