@@ -94,9 +94,7 @@ h2 {
     opacity: 1;
 }
 
-.location-listing:hover .location-image img {
-    filter: blur(2px);
-}
+
 
 
 @media (hover: none) {
