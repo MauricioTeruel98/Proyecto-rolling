@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;500;600;700;800;900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Inconsolata', monospace;
+    overflow-x: hidden;
+}
+
+.background-nota1{
+    position: relative;
+    background-image: url('../img/nota-1/img-portada1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 28%;
+    background-position-x: 50%;
+    height: 55vh;
+}
+
+.background-nota2{
+    position: relative;
+    background-image: url('../img/webb.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 28%;
+    background-position-x: 50%;
+    height: 55vh;
+}
+
+.background-nota3{
+    position: relative;
+    background-image: url('../img/nota-3/img-portada-3.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 28%;
+    background-position-x: 50%;
+    height: 55vh;
+}
+
+.img-bg{
+    background-image: url('../img/bg-img.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+}
+
+.container-nota{
+    background-color: rgb(238, 237, 237) ;
+}
+
+/* NOTA */
+
+
+
+#nota{
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#nota h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+#nota h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: white;
+}
+
+.title-nota h1{
+    font-size: 2rem;
+    color: #f2cc8f;
+}
+
+.title-mid{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.nota-contenido p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.nota-contenido h4{
+    font-weight: bold;
+}
+
+.title-nota{
+    color: #000000;
+    text-align: left;
+}
+
+.title-nota h1{
+    font-size: 2rem;
+}
+
+.nota-contenido{
+    color: #1c1c1d;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.nota-contenido p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.nota-contenido h4{
+    font-weight: bold;
+}
+
+.img-nota{
+    width: 45vw;
+}
+
+.bg-violet{
+    background-color: #77549f;
+    color: #fff;
+}
+
+.bg-violet:hover{
+    background-color: #9d4edd;
+    color: #fff;
+}
+
+.border-primary {
+    border-color: #77549f !important;
+}
+
+.categories {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.bg-input{
+    background-color: rgba(128, 128, 128, 0.966);
+    border-color: rgba(131, 59, 131, 0.952);
+}
+
+.bg-input::placeholder { 
+    color: white; 
+}
+
+.bg-input:focus{
+    background-color: rgba(175, 165, 165, 0.671);
+    border-color:rgba(163, 86, 163, 0.699);
+}
+
+textarea:focus, input:focus, input[type]:focus {
+    outline: 0 none;
+}
+
+/* CAJA DE COMENTARIOS */
+
+.form-control{
+    color: #fff;
+}
+
+textarea{
+    color: #fff;
+}
+
+.caja_de_comentarios{
+    margin: 20px 0;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 20px;
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    border:1px solid #1c1c1d;
+    box-shadow: 10px 10px 33px -8px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 33px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 33px -8px rgba(0,0,0,0.75);
+}
+
+.celda_nombre{
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.celda_email{
+    max-width: 100%;
+    min-width: 100%;
+    margin-bottom: 30px;
+}
+
+
+.form_comentarios textarea {
+    width: 100%;
+    height: 84px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 84px;
+    max-height: 300px;
+    padding: 10px;
+    line-height: 30px;
+}
+
+.form_comentarios{
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+/* FIN DE CAJA DE COMENTARIOS */
+
+
+
+/* SECCION DE COMENTARIOS DE USUARIOS */
+
+.bg-title{
+    background-color: #001233d0;
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    border:1px solid #1c1c1d;
+}
+
+.img_header_comentarios{
+    width: 50%;
+}
+
+.comentarios_realizados{
+    background-color: #2d1e80d7;
+    padding: 20px;
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+}
+
+
+.celda_comentario{
+    background-color: #f8f7ff;
+    border-radius: 20px;
+    border: 5px solid #0e69df9a;
+    margin-top: 20px;
+}
+
+.fotoperfil{
+    border: solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.card-footer{
+    background-color: #f8f7ff
+}
+
+.publicidad{
+    display: block;
+}
+
+
+/* FIN DE SECCION DE COMENTARIOS DE USUARIOS */
+
+
+
+/* MODAL */
+
+.modal-content{
+    background-color: rgba(100,100,100,0.3) !important;
+    backdrop-filter: blur(15px);
+    color: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.modal-content input{
+    background-color: rgba(100, 100, 100, 0.5);
+}
+.modal-content select{
+    background-color: rgba(100, 100, 100, 0.5);
+}
+.modal-content option{
+    background-color: rgb(255, 255, 255);
+}
+
+.modal-content input:focus{
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.modal-header,.modal-footer{
+    border: none;
+}
+
+.btn-social{
+    width: 80px;
+}
+
+/* END MODAL */
+
+
+@media screen and (max-width:768px) {
+
+    #botonbuscar{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .publicidad{
+        display: none;
+    }
+
+    #nota{
+        padding: 20px;
+    }
+
+    .nota-contenido{
+        font-size: 1.2rem;
+    }
+
+    .img-nota{
+        width: 100%;
+    }
+
+    .text-small{
+        font-size: 0.8rem;
+        line-height: 50%;
+    }
+}
