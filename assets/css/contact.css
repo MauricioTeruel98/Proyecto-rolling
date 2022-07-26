@@ -76,6 +76,9 @@ body {
     border-bottom: 1px solid #5A189A;
 }
 
+.contact-form form textarea{
+    resize: none;
+}
 
 .contact-form form button {
     background: #5A189A;
