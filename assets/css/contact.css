@@ -130,6 +130,12 @@ body {
     body {
         padding: 0;
     }
+    
+    .logo {
+        text-align: center;
+        font-size: 2.5em;
+    }
+
 
     .contact-wrapped {
         display: grid;
