@@ -130,13 +130,7 @@ body {
     body {
         padding: 0;
     }
-    
-    .logo {
-        text-align: center;
-        font-size: 2.5em;
-    }
-
-
+  
     .contact-wrapped {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -154,6 +148,12 @@ body {
     }
 }
 
+@media screen and (max-width: 768px){
+    .logo {
+        text-align: center;
+        font-size: 2.5em;
+    }
+}
 
 /* CONECTEMOS (BOTONES) */
 
