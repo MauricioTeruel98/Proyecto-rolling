@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    background: #3a6186;
+    background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+    background: linear-gradient(to right, #89253e, #3a6186);
+    color: rgb(255, 255, 255);
+    font-family: 'Inconsolata', monospace;
+    padding: 0;
+}
+
+
+.content {
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+
+.logo {
+    text-align: center;
+    font-size: 4.5em;
+}
+
+
+.logo span {
+    color: #C77DFF;
+}
+
+
+.contact-wrapped {
+    box-shadow: 0 0 20px 0 rgb(223, 182, 182);
+}
+
+
+.contact-wrapped>* {
+    padding: 1em;
+}
+
+
+.contact-form {
+    background: #001233;
+}
+
+.contact-form p form {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.contact-form form .block {
+    grid-column: 1 / 3;
+}
+
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: #C77DFF;
+    border-bottom: 1px solid #5A189A;
+}
+
+
+.contact-form form button {
+    background: #5A189A;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    background: #C77DFF;
+    color: #00043A;
+    transition: background-color 2s ease-out;
+    outline: 0;
+}
+
+
+.contact-info {
+    background: #001845;
+}
+
+
+.contact-info span {
+    color: #C77DFF;
+    max-width: 3em;
+}
+
+
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+    text-align: center;
+    margin: 0 0 3rem 0;
+}
+
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.contact-info ul li {
+    padding: .3em;
+}
+
+/* PANTALLA GRANDE */
+
+@media (min-width: 700px) {
+    body {
+        padding: 0;
+    }
+
+    .contact-wrapped {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .contact-wrapped>* {
+        padding: 2em;
+    }
+
+    .contact-info h4,
+    .contact-info ul,
+    .contact-info p {
+        padding: 1em;
+        text-align: left;
+    }
+}
+
+
+/* CONECTEMOS (BOTONES) */
+
+.redes {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.botones {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.icons {
+    margin: 8px;
+    display: flex;
+}
+
+
+
+.icon {
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 26px;
+    color: #fff;
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    transition-property: outline-offset, outline-color backgroun-color;
+    transition-duration: .25s;
+}
+
+.icon:hover {
+    outline-offset: 4px;
+}
+
+.icon:hover i {
+    animation: shake .25s;
+}
+
+.icon--facebook:hover {
+    background-image:
+        radial-gradient(circle at 30% 107%, #ffffff 0%, #d1ddff 5%, #395dff 45%, #0c459b 60%, #1430cc 90%);
+    /* colores fondo */
+    outline-color: #1654c7;
+    /*color circulo al acercar el cursor*/
+}
+
+.icon--instagram:hover {
+    background-image:
+        radial-gradient(circle at 30% 107%, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    outline-color: #c716be;
+}
+
+.icon--linkedin:hover {
+    background-image:
+        radial-gradient(circle at 30% 107%, #0000, #00A0DC, #0077B5);
+    outline-color: #1654c7;
+}
+
+
+.icon--github:hover {
+    background-image:
+        radial-gradient(circle at 30% 107%, #0000, #070e11, #abb1b4);
+    outline-color: #0b0c0e;
+}

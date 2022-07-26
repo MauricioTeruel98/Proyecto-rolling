@@ -37,6 +37,13 @@ body {
 
 /* NOTA */
 
+.container-nota{
+    background: #000428;
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    background: linear-gradient(to right, #004e92, #000428);
+
+}
+
 #nota{
     border-radius: 10px;
     padding: 30px;
@@ -47,6 +54,29 @@ body {
     font-weight: bold;
     margin-bottom: 20px;
     text-decoration: underline;
+}
+
+#nota h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    color: white;
+}
+
+.title-nota h1{
+    font-size: 2rem;
+    color: #f2cc8f;
+}
+
+.nota-contenido p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+}
+
+.nota-contenido h4{
+    font-weight: bold;
 }
 
 .title-nota{
@@ -75,6 +105,25 @@ body {
 
 .img-nota{
     width: 45vw;
+}
+
+.bg-violet{
+    background-color: #77549f;
+    color: #fff;
+}
+
+.bg-violet:hover{
+    background-color: #9d4edd;
+    color: #fff;
+}
+
+.border-primary {
+    border-color: #77549f !important;
+}
+
+.categories {
+    width: 100%;
+    margin-bottom: 5px;
 }
 
 .bg-input{
@@ -234,6 +283,11 @@ textarea{
 
 
 @media screen and (max-width:768px) {
+
+    #botonbuscar{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
 
     .publicidad{
         display: none;

@@ -28,10 +28,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav mx-auto">
-                        <a class="nav-link mx-2" aria-current="page" href="#">Home</a>
-                        <a class="nav-link mx-2" href="nota-detail.html">Novedades</a>
-                        <a class="nav-link mx-2" href="404.html">Acerca de nosotros</a>
-                        <a class="nav-link mx-2" href="#">Contacto</a>
+                        <a class="nav-link mx-2" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link mx-2" href="#news">Novedades</a>
+                        <a class="nav-link mx-2" href="about.html">Acerca de nosotros</a>
+                        <a class="nav-link mx-2" href="contact.html">Contacto</a>
                         <div class="center-text-nav">
                             <a class="btn btn-secondary btn-login btn-lr mx-2" href="login.html">Ingresar</a>
                         </div>
@@ -143,7 +143,7 @@
                 </div>
             </div>
     </section>
-    <main>
+    <main id="news">
         <div class="container">
             <div class="row">
 
@@ -159,20 +159,22 @@
                         <article class="card border-5 border-primary bg-color text-white">
                             <div class="row">
                                 <div class="col-12 col-md-6 my-auto">
-                                    <img src="assets/img/nota-1/foto-nota-1.jpg" class="card-img" alt="...">
+                                    <img src="assets/img/nota-1/foto2.jpeg" class="card-img" alt="...">
                                 </div>
                                 <div class="col-12 col-md-6 card-body my-auto">
                                     <h4 class="card-title">¿Qué es la eyección solar que alcanzará la Tierra y cómo
                                         podría afectar a las comunicaciones?</h4>
                                 </div>
-                                <div class="mt-2"><hr></div>
+                                <div class="mt-2">
+                                    <hr>
+                                </div>
                                 <div class="px-4">
                                     <p class="card-text mt-2">Cada 11 años, el Sol entra en periodos de alta actividad
                                         magnética y lanza una nube gigante de plasma y partículas energéticas. Cuando
                                         esa tormenta impacta contra la capa terrestre se pueden producir alteraciones en
                                         red eléctrica y en los satélites, aunque esta vez el nivel alerta es bajo.</p>
                                     <div class="text-center">
-                                        <a href="#" class="btn btn-primary btn-ver-mas">VER MAS</a>
+                                        <a href="nota-entrada.html" class="btn btn-primary btn-ver-mas">VER MAS</a>
                                     </div>
                                 </div>
                             </div>
@@ -192,13 +194,15 @@
                                     <h4 class="card-title">El telescopio ‘James Webb’ revela miles de galaxias en la
                                         vista más detallada del universo hasta la fecha</h4>
                                 </div>
-                                <div class="mt-2"><hr></div>
+                                <div class="mt-2">
+                                    <hr>
+                                </div>
                                 <div class="px-4">
                                     <p class="card-text mt-2">Webb ha producido la imagen infrarroja más profunda y
                                         nítida del universo lejano hasta la fecha. En ella, se puede apreciar el cúmulo
                                         de galaxias SMACS 0723 como lucía hace 4.600 millones de años.</p>
                                     <div class="text-center">
-                                        <a href="#" class="btn btn-primary btn-ver-mas">VER MAS</a>
+                                        <a href="nota-entrada-2.html" class="btn btn-primary btn-ver-mas">VER MAS</a>
                                     </div>
                                 </div>
 
@@ -219,13 +223,15 @@
                                     <h4 class="card-title">La NASA advierte que en 10 años se alcanzará el techo de
                                         calentamiento global</h4>
                                 </div>
-                                <div class="mt-2"><hr></div>
+                                <div class="mt-2">
+                                    <hr>
+                                </div>
                                 <div class="px-4">
                                     <p class="card-text mt-2">La temperatura promedio global de la superficie de la
                                         Tierra en 2021 ha empatado con la de 2018 como la sexta más cálida
                                         registrada desde 1880.</p>
                                     <div class="text-center">
-                                        <a href="#" class="btn btn-primary btn-ver-mas">VER MAS</a>
+                                        <a href="nota-entrada3.html" class="btn btn-primary btn-ver-mas">VER MAS</a>
                                     </div>
                                 </div>
 
@@ -332,7 +338,7 @@
         <footer>
             <div>
                 <div class="container">
-                    <div class="row">
+                    <div class="row d-flex justify-content-center">
                         <div class="col-12 text-center">
                             <img src="assets/img/logo/1.png" alt="" class="logo mb-5">
                         </div>
@@ -341,10 +347,10 @@
                             <h5 class="fw-normal title-info-footer mb-5">Información</h5>
                             <ul class="list-unstyled">
                                 <li class="footer-link">
-                                    <a href="#" class="link">Acerca de nosotros</a>
+                                    <a href="about.html" class="link">Acerca de nosotros</a>
                                 </li>
                                 <li class="footer-link">
-                                    <a href="#" class="link">Contacto</a>
+                                    <a href="contact.html" class="link">Contacto</a>
                                 </li>
                                 <li class="footer-link">
                                     <a href="#" class="link">Novedades</a>
@@ -354,11 +360,31 @@
                         <hr class="line-md">
                         <div class="col-12 col-md-4 text-center my-5 my-md-2">
                             <h5 class="fw-normal title-info-footer mb-5">Redes Sociales</h5>
-                            <ul class="list-unstyled list-social">
-                                <a href="#"><i class="bi bi-facebook icon mx-3"></i></a>
-                                <a href="#"><i class="bi bi-twitter icon mx-3"></i></a>
-                                <a href="#"><i class="bi bi-instagram icon mx-3"></i></a>
-                            </ul>
+                            <div class="botones">
+                                <div class="icons">
+                                    <a href="#" class="icon icon--facebook">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </div>
+
+                                <div class="icons">
+                                    <a href="#" class="icon icon--instagram">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </div>
+
+                                <div class="icons">
+                                    <a href="#" class="icon icon--linkedin">
+                                        <i class="fa-brands fa-linkedin-in"></i>
+                                    </a>
+                                </div>
+
+                                <div class="icons">
+                                    <a href="#" class="icon icon--github">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                         <hr class="line-md">
                         <div class="col-12 col-md-4 text-center my-5 my-md-2">

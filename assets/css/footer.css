@@ -61,6 +61,70 @@ section .footer{
     font-size: 1rem;
 }
 
+.botones {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.icons {
+    margin: 8px;
+    display: flex;
+}
+
+
+
+.icon {
+    width: 60px;
+    height: 60px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 26px;
+    color: #fff;
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    transition-property: outline-offset, outline-color backgroun-color;
+    transition-duration: .25s;
+}
+
+.icon:hover {
+    outline-offset: 4px;
+}
+
+.icon:hover i {
+    animation: shake .25s;
+}
+
+.icon--facebook:hover {
+    background-image:
+        radial-gradient(circle at 30% 107%, #ffffff 0%, #d1ddff 5%, #395dff 45%, #0c459b 60%, #1430cc 90%);
+    /* colores fondo */
+    outline-color: #1654c7;
+    /*color circulo al acercar el cursor*/
+}
+
+.icon--instagram:hover {
+    background-image:
+        radial-gradient(circle at 30% 107%, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    outline-color: #c716be;
+}
+
+.icon--linkedin:hover {
+    background-image:
+        radial-gradient(circle at 30% 107%, #0000, #00A0DC, #0077B5);
+    outline-color: #1654c7;
+}
+
+
+.icon--github:hover {
+    background-image:
+        radial-gradient(circle at 30% 107%, #0000, #070e11, #abb1b4);
+    outline-color: #0b0c0e;
+}
+
 /* END FOOTER */
 
 @media (max-width: 768px) {
@@ -78,10 +142,6 @@ section .footer{
         width: 200px;
     }
 
-    .list-unstyled{
-        padding-left: 30px;
-    }
-
     .list-social{
         padding-left: 0px;
     }
@@ -96,6 +156,7 @@ section .footer{
     }
 
     .footer-link{
+        width: 260px;
         text-align: start;
     }
 
