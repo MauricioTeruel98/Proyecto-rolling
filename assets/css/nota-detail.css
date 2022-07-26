@@ -14,9 +14,29 @@ body {
     overflow-x: hidden;
 }
 
-.background-nota{
+.background-nota1{
+    position: relative;
+    background-image: url('../img/nota-1/img-portada1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 28%;
+    background-position-x: 50%;
+    height: 55vh;
+}
+
+.background-nota2{
     position: relative;
     background-image: url('../img/webb.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 28%;
+    background-position-x: 50%;
+    height: 55vh;
+}
+
+.background-nota3{
+    position: relative;
+    background-image: url('../img/nota-3/img-portada-3.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 28%;
@@ -67,6 +87,11 @@ body {
 .title-nota h1{
     font-size: 2rem;
     color: #f2cc8f;
+}
+
+.title-mid{
+    color: #fff;
+    text-decoration: underline;
 }
 
 .nota-contenido p{
